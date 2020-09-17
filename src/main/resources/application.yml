@@ -1,0 +1,9 @@
+auth0:
+  # Use Auth0 API's identifier
+  audience: https://mybootapi/
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://devpro9.us.auth0.com/
