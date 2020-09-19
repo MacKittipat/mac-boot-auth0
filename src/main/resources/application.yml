@@ -7,3 +7,6 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: https://devpro9.us.auth0.com/
+logging:
+  level:
+    root: debug
